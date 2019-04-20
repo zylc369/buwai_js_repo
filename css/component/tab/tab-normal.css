@@ -1,0 +1,66 @@
+.tab-contain-normal {
+    padding: 0 10px 8px 8px;
+    width: 100%;
+}
+
+.tabs-normal {
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.tabs-normal li {
+    float: left;
+    margin: 0;
+    padding: 0 5px 0 5px;
+}
+
+.tabs-normal > li > a {
+    position: relative;
+    background: #ddd;
+    padding: 10px 50px;
+    float: left;
+    text-decoration: none;
+    color: #444;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .8);
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .4);
+    border: gray solid 1px;
+    cursor: pointer;
+}
+
+.tab-current-normal {
+}
+
+.tab-current-normal > a {
+    outline: 0 !important;
+    background: #fff !important;
+    z-index: 4 !important;
+}
+
+/*.hoverItem a {*/
+    /*background: #AAC8B9;*/
+/*}*/
+
+/*.content {*/
+    /*background: #fff;*/
+    /*padding: 50px;*/
+    /*height: 220px;*/
+    /*position: relative;*/
+    /*border-radius: 0 5px 5px 5px;*/
+    /*box-shadow: 0 -2px 3px -2px rgba(0, 0, 0, .5);*/
+/*}*/
+
+.tab-item-normal {
+    display: none;
+}
+
+.tab-show-normal {
+    display: block;
+}
+
+.tab-content-normal-item {
+
+}

@@ -1,0 +1,81 @@
+.tab-contain-progressive {
+    padding: 10px;
+    width: 100%;
+}
+
+.tabs-progressive {
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.tabs-progressive li {
+    float: left;
+    margin: 0;
+    padding: 5px 5px 0 5px;
+}
+
+.tabs-progressive > li > a {
+    position: relative;
+    /*background: #ddd;*/
+    background: white;
+    /*padding: 5px 50px;*/
+    float: left;
+    text-decoration: none;
+    color: #444;
+    /*text-shadow: 0 1px 0 rgba(255, 255, 255, .8);*/
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .4);
+    border: gray solid 1px;
+    cursor: pointer;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.tab-current-progressive {
+}
+
+.tab-current-progressive > a {
+    outline: 0 !important;
+    background: #1D72C9 !important;
+    z-index: 4 !important;
+    color: white !important;
+}
+
+/*.hoverItem a {*/
+/*background: #AAC8B9;*/
+/*}*/
+
+/*.content {*/
+/*background: #fff;*/
+/*padding: 50px;*/
+/*height: 220px;*/
+/*position: relative;*/
+/*border-radius: 0 5px 5px 5px;*/
+/*box-shadow: 0 -2px 3px -2px rgba(0, 0, 0, .5);*/
+/*}*/
+
+.tab-item-progressive {
+    display: none;
+}
+
+.tab-show-progressive {
+    display: block;
+}
+
+.tab-content-progressive-item {
+
+}
+
+.tab-content-item {
+    border: gray solid 1px;
+    margin-left: 5px;
+    margin-top: 5px;;
+}
+
+.tab-progressive-flow-control {
+    margin: 0 10px 10px 10px;
+}
